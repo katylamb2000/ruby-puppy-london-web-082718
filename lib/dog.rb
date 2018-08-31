@@ -9,7 +9,7 @@ class Dog
    @@all << self
  end
  
- der self.all
+ def self.all
  @@all
  end
  
